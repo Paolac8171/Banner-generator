@@ -1,16 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>jQuery Template</title>
-    <script type="text/jQuery" src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script>
-      $(function(){
+
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Template</title>
+  <script type="text/jQuery" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script>
+    $(function() {
+          var userName = $('userInput').html;
+          console.log(userName);
+            $(userName).val()
+  });
           
-      });
-    </script> 
-  </head>
-  <body>
-  
-  </body>
+  </script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <form>
+
+    Name: <input id="userInput" type="text" name="name" value="name"><br>
+    <br><button>Submit</button><br>
+</form>
+
+</body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <title>jQuery Template</title>-->
+<!--  <script type="text/jQuery" src="https://code.jquery.com/jquery-3.1.1.js"></script>-->
+<!--  <script>-->
+<!--    $(function() {-->
+<!--          var userName = $('userName').html;-->
+<!--          console.log(userName);-->
+<!--            $(userName).val()-->
+
+
+<!--          });-->
+          
+      //     var h1text = $('h1').html(); //getting
+      // console.log(h1text);
+      // $('h2').html("The text above says " + h1text);
+          
+<!--  </script>-->
+<!--  <link rel="stylesheet" href="style.css" type="text/css">-->
+<!--</head>-->
+
+<!--<body>-->
+<!--  <form>-->
+
+<!--    Name: <input id="userInput" type="text" name="name" value="name"><br>-->
+<!--    <input id="userName">-->
+<!--    <br><button>Submit</button><br>-->
+
+<!--    <br> Event: <select>-->
+<!--  <option value="party">party</option>-->
+<!--  <option value="award">award</option>-->
+<!--  <option value="graduation">graduation</option>-->
+<!--  <option value="pet birthday">pet birthday</option>-->
+<!--</select><br>-->
+<!--<input id="userEvent">-->
+<!--    <br><button>Submit</button><br>-->
+
+<!--    <br>Border Color:<br>-->
+<!--    <input type="checkbox" name="name" value="name">red<br>-->
+<!--    <input type="checkbox" name="name" value="name">blue<br>-->
+<!--    <input type="checkbox" name="name" value="name">yellow<br>-->
+<!--    <input type="checkbox" name="name" value="name">green<br>-->
+<!--    <input id="colorUser">-->
+<!--    <br><button>Submit</button><br>-->
+  
+<!--  </form>-->
+
+<!--  <br>-->
+<!--  <div class="title">-->
+<!--    <h1></h1>-->
+<!--    <p>Congratulations + name + <br> + event +-->
+<!--    </p>-->
+<!--  </div>-->
+
+<!--</body>-->
+
+<!--</html>-->
