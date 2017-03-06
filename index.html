@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Template</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script>
+    $(function(){
+          $('button').click(function(){
+          var userColor=$("#choiceInput").val();
+          $('h1').css("background-color",userColor);
+        })
+        $('button').click(function(){
+          var ageInput = $("#age").val();
+          var userText = $("#text").val();
+          console.log(ageInput);
+          $('h1').html("Congratulations to your "+ ageInput + " years on earth " + userText + " !");
+        }) 
+    });
+    </script>
+</head>
+  <style>
+    h1{
+       background-color: lightGrey;
+            text-align: center;
+            height: 120px;
+            width: 500px;
+            border:5px solid gold;
+            
+    } 
+    
+  </style>
+<body>
+Name: <input id="text"> <br>
+  
+  <br>Background color: <input type= "color" id="choiceInput"><br>
+  
+  
+  <br>Age : <input type= "number" id="age" min="1" max="105"><br> 
+  
+  <br><button>enter</button>
+  
+  <h1></h1>
+</body>
+
+</html>
